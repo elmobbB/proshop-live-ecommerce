@@ -20466,3 +20466,28 @@ INFO 2024-10-01 14:14:11,098 basehttp 40588 4984 "GET /api/products/11 HTTP/1.1"
 INFO 2024-10-01 14:14:13,402 basehttp 40588 31752 "GET /api/products/11 HTTP/1.1" 200 328
 INFO 2024-10-01 14:18:36,473 autoreload 40588 10384 C:\Users\Claire\ecommerce\backend\backend\urls.py changed, reloading.
 INFO 2024-10-01 14:18:37,429 autoreload 29940 28524 Watching for file changes with StatReloader
+INFO 2024-10-01 14:23:14,431 autoreload 24596 32672 Watching for file changes with StatReloader
+INFO 2024-10-01 14:23:24,531 basehttp 24596 26208 "GET /api/products/11 HTTP/1.1" 200 328
+INFO 2024-10-01 14:23:26,754 basehttp 24596 24756 "GET /api/products/11 HTTP/1.1" 200 328
+INFO 2024-10-01 14:23:31,788 basehttp 24596 30500 "POST /api/orders/add/ HTTP/1.1" 200 780
+INFO 2024-10-01 14:23:35,444 basehttp 24596 9236 "GET /api/orders/2/ HTTP/1.1" 200 780
+INFO 2024-10-01 14:23:36,573 basehttp 24596 28688 "POST /api/orders/add/ HTTP/1.1" 200 780
+INFO 2024-10-01 14:23:38,410 basehttp 24596 8064 "GET /api/orders/2/ HTTP/1.1" 200 780
+INFO 2024-10-01 14:23:58,291 basehttp 24596 4984 "PUT /api/orders/2/pay/ HTTP/1.1" 200 16
+INFO 2024-10-01 14:24:01,164 basehttp 24596 25312 "GET /api/orders/2/ HTTP/1.1" 200 804
+INFO 2024-10-01 14:24:08,625 basehttp 24596 16792 "GET /api/products/?keyword=&page= HTTP/1.1" 200 2385
+INFO 2024-10-01 14:24:13,431 basehttp 24596 38168 "GET /api/products?keyword=cookie&page=1 HTTP/1.1" 301 0
+INFO 2024-10-01 14:24:13,670 basehttp 24596 11540 "GET /api/products/?keyword=&page= HTTP/1.1" 200 2385
+INFO 2024-10-01 14:24:17,860 basehttp 24596 40228 "GET /api/products/?keyword=cookie&page=1 HTTP/1.1" 200 362
+INFO 2024-10-01 14:24:20,562 basehttp 24596 37344 "GET /api/products/?keyword=cookie&page=1 HTTP/1.1" 200 362
+INFO 2024-10-01 14:24:24,956 basehttp 24596 23008 "GET /api/products/?keyword=elmo&page=1 HTTP/1.1" 200 1198
+INFO 2024-10-01 14:27:00,851 autoreload 24596 32672 C:\Users\Claire\ecommerce\backend\backend\urls.py changed, reloading.
+INFO 2024-10-01 14:27:01,827 autoreload 24960 18984 Watching for file changes with StatReloader
+INFO 2024-10-01 14:27:20,774 autoreload 24960 18984 C:\Users\Claire\ecommerce\backend\backend\urls.py changed, reloading.
+INFO 2024-10-01 14:27:21,580 autoreload 25696 20576 Watching for file changes with StatReloader
+INFO 2024-10-01 14:27:26,248 autoreload 25696 20576 C:\Users\Claire\ecommerce\backend\backend\urls.py changed, reloading.
+INFO 2024-10-01 14:27:26,951 autoreload 2488 16152 Watching for file changes with StatReloader
+INFO 2024-10-01 14:27:36,251 autoreload 2488 16152 C:\Users\Claire\ecommerce\backend\backend\urls.py changed, reloading.
+INFO 2024-10-01 14:27:37,034 autoreload 27596 26372 Watching for file changes with StatReloader
+INFO 2024-10-01 14:27:38,772 autoreload 27596 26372 C:\Users\Claire\ecommerce\backend\backend\urls.py changed, reloading.
+INFO 2024-10-01 14:27:39,484 autoreload 30340 30404 Watching for file changes with StatReloader
