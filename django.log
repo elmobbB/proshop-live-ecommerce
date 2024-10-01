@@ -20223,3 +20223,5 @@ INFO 2024-10-01 13:11:40,417 autoreload 34084 24992 C:\Users\Claire\ecommerce\ba
 INFO 2024-10-01 13:11:41,497 autoreload 14992 4224 Watching for file changes with StatReloader
 INFO 2024-10-01 13:12:43,657 autoreload 29888 38248 Watching for file changes with StatReloader
 INFO 2024-10-01 13:13:16,231 autoreload 1700 25648 Watching for file changes with StatReloader
+INFO 2024-10-01 13:47:41,236 autoreload 1700 25648 C:\Users\Claire\ecommerce\backend\backend\settings.py changed, reloading.
+INFO 2024-10-01 13:47:42,022 autoreload 33916 38356 Watching for file changes with StatReloader
