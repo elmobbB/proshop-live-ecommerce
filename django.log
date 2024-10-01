@@ -20203,3 +20203,23 @@ INFO 2024-10-01 12:33:22,794 basehttp 37604 27728 - Broken pipe from ('127.0.0.1
 INFO 2024-10-01 12:33:23,026 basehttp 37604 35656 "GET /api/products/top/ HTTP/1.1" 200 1607
 INFO 2024-10-01 12:33:23,826 basehttp 37604 27716 "GET /api/products/?keyword=&page= HTTP/1.1" 200 2312
 INFO 2024-10-01 12:33:26,276 basehttp 37604 11636 "GET /api/products/top/ HTTP/1.1" 200 1607
+INFO 2024-10-01 13:09:46,554 autoreload 24716 31448 Watching for file changes with StatReloader
+INFO 2024-10-01 13:10:21,463 basehttp 24716 3112 "GET /api/products/top/ HTTP/1.1" 200 1607
+INFO 2024-10-01 13:10:21,757 autoreload 24716 31448 C:\Users\Claire\ecommerce\backend\backend\settings.py changed, reloading.
+INFO 2024-10-01 13:10:22,835 autoreload 12348 35788 Watching for file changes with StatReloader
+INFO 2024-10-01 13:10:42,147 basehttp 12348 33640 "GET /api/products/top/ HTTP/1.1" 200 1607
+INFO 2024-10-01 13:10:42,452 basehttp 12348 30344 "GET /api/products/?keyword=&page= HTTP/1.1" 200 2312
+INFO 2024-10-01 13:10:47,064 basehttp 12348 22460 "GET /api/products/top/ HTTP/1.1" 200 1607
+INFO 2024-10-01 13:10:47,771 basehttp 12348 924 "GET /api/products/?keyword=&page= HTTP/1.1" 200 2312
+INFO 2024-10-01 13:11:02,328 basehttp 12348 33608 "GET /api/products/top/ HTTP/1.1" 200 1607
+INFO 2024-10-01 13:11:03,954 basehttp 12348 26020 "GET /api/products/?keyword=&page= HTTP/1.1" 200 2312
+INFO 2024-10-01 13:11:06,412 basehttp 12348 32604 "GET /api/products/top/ HTTP/1.1" 200 1607
+INFO 2024-10-01 13:11:09,069 basehttp 12348 8552 "GET /api/products/?keyword=&page= HTTP/1.1" 200 2312
+INFO 2024-10-01 13:11:15,729 basehttp 12348 34252 "GET /api/products/?keyword=&page=2 HTTP/1.1" 200 2011
+INFO 2024-10-01 13:11:29,169 autoreload 12348 35788 C:\Users\Claire\ecommerce\backend\backend\settings.py changed, reloading.
+INFO 2024-10-01 13:11:30,834 autoreload 8864 27596 Watching for file changes with StatReloader
+INFO 2024-10-01 13:11:37,570 autoreload 34084 24992 Watching for file changes with StatReloader
+INFO 2024-10-01 13:11:40,417 autoreload 34084 24992 C:\Users\Claire\ecommerce\backend\backend\settings.py changed, reloading.
+INFO 2024-10-01 13:11:41,497 autoreload 14992 4224 Watching for file changes with StatReloader
+INFO 2024-10-01 13:12:43,657 autoreload 29888 38248 Watching for file changes with StatReloader
+INFO 2024-10-01 13:13:16,231 autoreload 1700 25648 Watching for file changes with StatReloader

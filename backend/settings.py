@@ -141,13 +141,11 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'proshop',
         'USER': 'elmobbB',
-        # 'PASSWORD': os.environ.get('DB_PASS'),
         'PASSWORD': os.getenv('DB_PASS'),
         'HOST': 'proshop-identifier.chkmkqyecubw.ap-southeast-2.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
