@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-@0x2bboosia4r)xull^ui2479xlef!h&x(xw1peba*w@&qt^yy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True # look into static
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'proshop-elmo-8e5d999ea150.herokuapp.com']
+ALLOWED_HOSTS = ['*','127.0.0.1', 'localhost', 'proshop-elmo-8e5d999ea150.herokuapp.com']
 
 
 # Application definition
