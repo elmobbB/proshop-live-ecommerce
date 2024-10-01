@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'corsheaders',
+    'storages',
 
     'base.apps.BaseConfig',
     # our project now knows our app
