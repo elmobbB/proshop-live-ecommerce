@@ -20541,3 +20541,18 @@ INFO 2024-10-01 15:12:01,305 autoreload 4224 31536 Watching for file changes wit
 INFO 2024-10-01 15:12:02,998 autoreload 4224 31536 C:\Users\Claire\ecommerce\backend\backend\settings.py changed, reloading.
 INFO 2024-10-01 15:12:03,735 autoreload 36592 33424 Watching for file changes with StatReloader
 INFO 2024-10-01 15:13:01,262 autoreload 23396 13940 Watching for file changes with StatReloader
+INFO 2024-10-01 15:16:55,290 autoreload 23396 13940 C:\Users\Claire\ecommerce\backend\backend\urls.py changed, reloading.
+INFO 2024-10-01 15:16:56,114 autoreload 29092 24252 Watching for file changes with StatReloader
+INFO 2024-10-01 15:17:08,642 autoreload 29092 24252 C:\Users\Claire\ecommerce\backend\backend\urls.py changed, reloading.
+INFO 2024-10-01 15:17:09,513 autoreload 3336 29848 Watching for file changes with StatReloader
+INFO 2024-10-01 15:18:35,690 autoreload 3336 29848 C:\Users\Claire\ecommerce\backend\backend\urls.py changed, reloading.
+INFO 2024-10-01 15:18:36,405 autoreload 29156 29768 Watching for file changes with StatReloader
+INFO 2024-10-01 15:19:06,703 autoreload 29156 29768 C:\Users\Claire\ecommerce\backend\backend\urls.py changed, reloading.
+INFO 2024-10-01 15:19:07,296 autoreload 19744 38364 Watching for file changes with StatReloader
+INFO 2024-10-01 15:19:11,962 autoreload 19744 38364 C:\Users\Claire\ecommerce\backend\backend\urls.py changed, reloading.
+INFO 2024-10-01 15:19:12,567 autoreload 6064 40868 Watching for file changes with StatReloader
+INFO 2024-10-01 15:19:17,258 autoreload 6064 40868 C:\Users\Claire\ecommerce\backend\backend\urls.py changed, reloading.
+INFO 2024-10-01 15:19:17,899 autoreload 7740 22500 Watching for file changes with StatReloader
+INFO 2024-10-01 15:19:19,601 autoreload 7740 22500 C:\Users\Claire\ecommerce\backend\backend\urls.py changed, reloading.
+INFO 2024-10-01 15:19:20,319 autoreload 31804 25744 Watching for file changes with StatReloader
+INFO 2024-10-01 15:23:06,428 autoreload 31804 25744 C:\Users\Claire\ecommerce\backend\backend\urls.py changed, reloading.
