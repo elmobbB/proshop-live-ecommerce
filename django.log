@@ -20579,3 +20579,12 @@ INFO 2024-10-05 14:07:15,655 basehttp 29140 38344 "GET /api/products/?keyword=&p
 INFO 2024-10-05 14:07:18,210 basehttp 29140 40628 "GET /api/products/top/ HTTP/1.1" 200 1607
 INFO 2024-10-05 14:07:21,398 basehttp 29140 34884 "GET /api/products/?keyword=&page= HTTP/1.1" 200 2385
 INFO 2024-10-05 15:55:44,880 autoreload 32752 17096 Watching for file changes with StatReloader
+INFO 2024-10-05 15:58:45,636 basehttp 32752 9464 "GET /api/products/?keyword=&page= HTTP/1.1" 200 2070
+INFO 2024-10-05 15:58:45,636 basehttp 32752 40892 "GET /api/products/top/ HTTP/1.1" 200 2299
+INFO 2024-10-05 15:58:51,437 basehttp 32752 28324 "GET /api/products/top/ HTTP/1.1" 200 2299
+INFO 2024-10-05 15:58:52,135 basehttp 32752 13108 "GET /api/products/?keyword=&page= HTTP/1.1" 200 2070
+INFO 2024-10-05 15:58:53,582 basehttp 32752 20304 "GET /api/products?keyword=&page= HTTP/1.1" 301 0
+INFO 2024-10-05 15:58:57,152 basehttp 32752 17676 "GET /api/products/top/ HTTP/1.1" 200 2299
+INFO 2024-10-05 15:58:57,996 basehttp 32752 10200 "GET /api/products/?keyword=&page= HTTP/1.1" 200 2070
+INFO 2024-10-05 15:59:00,800 basehttp 32752 41048 "GET /api/products/top/ HTTP/1.1" 200 2299
+INFO 2024-10-05 15:59:01,877 basehttp 32752 8136 "GET /api/products/?keyword=&page= HTTP/1.1" 200 2070
