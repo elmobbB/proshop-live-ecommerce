@@ -20567,3 +20567,14 @@ INFO 2024-10-01 15:27:46,830 basehttp 32364 37348 "GET /api/products/top/ HTTP/1
 INFO 2024-10-01 15:27:48,514 basehttp 32364 31476 "GET /api/products/?keyword=&page= HTTP/1.1" 200 2385
 INFO 2024-10-05 13:45:35,452 autoreload 32364 38104 C:\Users\Claire\ecommerce\backend\backend\urls.py changed, reloading.
 INFO 2024-10-05 13:45:37,009 autoreload 10564 14252 Watching for file changes with StatReloader
+INFO 2024-10-05 14:06:38,317 autoreload 29140 17568 Watching for file changes with StatReloader
+INFO 2024-10-05 14:06:52,744 basehttp 29140 24544 "GET /api/products/top/ HTTP/1.1" 200 1607
+INFO 2024-10-05 14:06:52,827 basehttp 29140 8732 "GET /api/products/?keyword=&page= HTTP/1.1" 200 2385
+INFO 2024-10-05 14:06:57,174 basehttp 29140 8292 "GET /api/products/top/ HTTP/1.1" 200 1607
+INFO 2024-10-05 14:06:57,777 basehttp 29140 10600 "GET /api/products/?keyword=&page= HTTP/1.1" 200 2385
+INFO 2024-10-05 14:07:03,391 basehttp 29140 30828 "GET /api/products/12 HTTP/1.1" 200 288
+INFO 2024-10-05 14:07:06,522 basehttp 29140 24540 "GET /api/products/12 HTTP/1.1" 200 288
+INFO 2024-10-05 14:07:14,194 basehttp 29140 14936 "GET /api/products/top/ HTTP/1.1" 200 1607
+INFO 2024-10-05 14:07:15,655 basehttp 29140 38344 "GET /api/products/?keyword=&page= HTTP/1.1" 200 2385
+INFO 2024-10-05 14:07:18,210 basehttp 29140 40628 "GET /api/products/top/ HTTP/1.1" 200 1607
+INFO 2024-10-05 14:07:21,398 basehttp 29140 34884 "GET /api/products/?keyword=&page= HTTP/1.1" 200 2385
