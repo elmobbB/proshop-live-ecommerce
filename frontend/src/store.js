@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { thunk } from 'redux-thunk';//allows asynchronous actions in redux
 import { composeWithDevTools } from 'redux-devtools-extension';
-import { applyMiddleware,combineReducers,createStore } from 'redux';
+import { applyMiddleware,combineReducers,createStore,compose } from 'redux';
 import { productListReducer,productDetailsReducer,productDeleteReducer,productUpdateReducer,productCreateReducer,productReviewCreateReducer,productTopRatedReducer } from './reducers/productReducers';
 import { cartReducer } from './reducers/cartReducers';
 import { userLoginReducer,userRegisterReducer,userDetailsReducer,userUpdateProfileReducer,userListReducer,userDeleteReducer,userUpdateReducer } from './reducers/userReducers';
@@ -56,6 +56,16 @@ const initialState = {
 
 const middleware = [thunk]
 
-const store = createStore(reducer,initialState,composeWithDevTools(applyMiddleware(...middleware)))
+// const store = createStore(reducer,initialState,composeWithDevTools(applyMiddleware(...middleware)))
 
+const composeEnhancers =
+    (typeof window !== 'undefined' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose;
+
+const enhancer = composeEnhancers(
+    applyMiddleware(...middleware)
+    // Add other store enhancers here if needed
+);
+
+// Create store
+const store = createStore(reducer,initialState,enhancer);
 export default store

@@ -20578,3 +20578,4 @@ INFO 2024-10-05 14:07:14,194 basehttp 29140 14936 "GET /api/products/top/ HTTP/1
 INFO 2024-10-05 14:07:15,655 basehttp 29140 38344 "GET /api/products/?keyword=&page= HTTP/1.1" 200 2385
 INFO 2024-10-05 14:07:18,210 basehttp 29140 40628 "GET /api/products/top/ HTTP/1.1" 200 1607
 INFO 2024-10-05 14:07:21,398 basehttp 29140 34884 "GET /api/products/?keyword=&page= HTTP/1.1" 200 2385
+INFO 2024-10-05 15:55:44,880 autoreload 32752 17096 Watching for file changes with StatReloader
