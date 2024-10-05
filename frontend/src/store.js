@@ -54,20 +54,18 @@ const initialState = {
     userLogin: { userInfo: userInfoFromStorage }
 }
 
-const middleware = [thunk]
+// const middleware = [thunk]
 
 // const store = createStore(reducer,initialState,composeWithDevTools(applyMiddleware(...middleware)))
 
-const composeEnhancers =
-    (typeof window !== 'undefined' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__)
-        ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__
-        : compose;
-
-const enhancer = composeEnhancers(
-    applyMiddleware(...middleware)
-    // Add other store enhancers here if needed
-);
-
-// Create store
-const store = createStore(reducer,initialState,enhancer);
+const store = configureStore({
+    reducer,
+    preloadedState: initialState,
+    middleware: (getDefaultMiddleware) =>
+        getDefaultMiddleware().concat(thunk), // Include thunk middleware
+    devTools: composeWithDevTools({
+        name: 'MyApp',
+        actionsBlacklist: ['REDUX_STORAGE_SAVE'], // Exclude specific actions if needed
+    }),
+});
 export default store
